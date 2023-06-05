@@ -1,0 +1,15 @@
+*/lef/
+*/psf/
+*/lib/
+*/drc/
+*/lvs/
+*/pex/
+*/sim/
+*/*.bin
+gen_config.py
+gen.sh
+.DS_Store
+/logs/
+*.log
+*.out
+*.err
