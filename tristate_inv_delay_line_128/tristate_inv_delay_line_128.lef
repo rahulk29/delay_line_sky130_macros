@@ -17081,9 +17081,9 @@ MACRO tristate_inv_delay_line_128
   END vss
   OBS
     LAYER met1 SPACING 0.14 ;
-      RECT 0.88 0 766.87 6.92
+      RECT 0.88 0 766.87 6.92 ;
     LAYER met2 SPACING 0.14 ;
-      RECT -2.91 -8.32 769.27 15.8
+      RECT -2.91 -8.32 769.27 15.8 ;
   END
 END tristate_inv_delay_line_128
 
