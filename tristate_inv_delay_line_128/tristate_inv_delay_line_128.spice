@@ -271,7 +271,7 @@ Xinv_0
 + vss
 + clk_in
 + clk_int_top[0]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_0
 + clk_int_top[0]
 + ctl[0]
@@ -285,7 +285,7 @@ Xinv_1
 + vss
 + clk_int_top[0]
 + clk_int_top[1]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_1
 + clk_int_top[1]
 + ctl[1]
@@ -307,7 +307,7 @@ Xinv_2
 + vss
 + clk_int_top[1]
 + clk_int_top[2]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_2
 + clk_int_top[2]
 + ctl[2]
@@ -329,7 +329,7 @@ Xinv_3
 + vss
 + clk_int_top[2]
 + clk_int_top[3]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_3
 + clk_int_top[3]
 + ctl[3]
@@ -351,7 +351,7 @@ Xinv_4
 + vss
 + clk_int_top[3]
 + clk_int_top[4]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_4
 + clk_int_top[4]
 + ctl[4]
@@ -373,7 +373,7 @@ Xinv_5
 + vss
 + clk_int_top[4]
 + clk_int_top[5]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_5
 + clk_int_top[5]
 + ctl[5]
@@ -395,7 +395,7 @@ Xinv_6
 + vss
 + clk_int_top[5]
 + clk_int_top[6]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_6
 + clk_int_top[6]
 + ctl[6]
@@ -417,7 +417,7 @@ Xinv_7
 + vss
 + clk_int_top[6]
 + clk_int_top[7]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_7
 + clk_int_top[7]
 + ctl[7]
@@ -439,7 +439,7 @@ Xinv_8
 + vss
 + clk_int_top[7]
 + clk_int_top[8]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_8
 + clk_int_top[8]
 + ctl[8]
@@ -461,7 +461,7 @@ Xinv_9
 + vss
 + clk_int_top[8]
 + clk_int_top[9]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_9
 + clk_int_top[9]
 + ctl[9]
@@ -483,7 +483,7 @@ Xinv_10
 + vss
 + clk_int_top[9]
 + clk_int_top[10]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_10
 + clk_int_top[10]
 + ctl[10]
@@ -505,7 +505,7 @@ Xinv_11
 + vss
 + clk_int_top[10]
 + clk_int_top[11]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_11
 + clk_int_top[11]
 + ctl[11]
@@ -527,7 +527,7 @@ Xinv_12
 + vss
 + clk_int_top[11]
 + clk_int_top[12]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_12
 + clk_int_top[12]
 + ctl[12]
@@ -549,7 +549,7 @@ Xinv_13
 + vss
 + clk_int_top[12]
 + clk_int_top[13]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_13
 + clk_int_top[13]
 + ctl[13]
@@ -571,7 +571,7 @@ Xinv_14
 + vss
 + clk_int_top[13]
 + clk_int_top[14]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_14
 + clk_int_top[14]
 + ctl[14]
@@ -593,7 +593,7 @@ Xinv_15
 + vss
 + clk_int_top[14]
 + clk_int_top[15]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_15
 + clk_int_top[15]
 + ctl[15]
@@ -615,7 +615,7 @@ Xinv_16
 + vss
 + clk_int_top[15]
 + clk_int_top[16]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_16
 + clk_int_top[16]
 + ctl[16]
@@ -637,7 +637,7 @@ Xinv_17
 + vss
 + clk_int_top[16]
 + clk_int_top[17]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_17
 + clk_int_top[17]
 + ctl[17]
@@ -659,7 +659,7 @@ Xinv_18
 + vss
 + clk_int_top[17]
 + clk_int_top[18]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_18
 + clk_int_top[18]
 + ctl[18]
@@ -681,7 +681,7 @@ Xinv_19
 + vss
 + clk_int_top[18]
 + clk_int_top[19]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_19
 + clk_int_top[19]
 + ctl[19]
@@ -703,7 +703,7 @@ Xinv_20
 + vss
 + clk_int_top[19]
 + clk_int_top[20]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_20
 + clk_int_top[20]
 + ctl[20]
@@ -725,7 +725,7 @@ Xinv_21
 + vss
 + clk_int_top[20]
 + clk_int_top[21]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_21
 + clk_int_top[21]
 + ctl[21]
@@ -747,7 +747,7 @@ Xinv_22
 + vss
 + clk_int_top[21]
 + clk_int_top[22]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_22
 + clk_int_top[22]
 + ctl[22]
@@ -769,7 +769,7 @@ Xinv_23
 + vss
 + clk_int_top[22]
 + clk_int_top[23]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_23
 + clk_int_top[23]
 + ctl[23]
@@ -791,7 +791,7 @@ Xinv_24
 + vss
 + clk_int_top[23]
 + clk_int_top[24]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_24
 + clk_int_top[24]
 + ctl[24]
@@ -813,7 +813,7 @@ Xinv_25
 + vss
 + clk_int_top[24]
 + clk_int_top[25]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_25
 + clk_int_top[25]
 + ctl[25]
@@ -835,7 +835,7 @@ Xinv_26
 + vss
 + clk_int_top[25]
 + clk_int_top[26]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_26
 + clk_int_top[26]
 + ctl[26]
@@ -857,7 +857,7 @@ Xinv_27
 + vss
 + clk_int_top[26]
 + clk_int_top[27]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_27
 + clk_int_top[27]
 + ctl[27]
@@ -879,7 +879,7 @@ Xinv_28
 + vss
 + clk_int_top[27]
 + clk_int_top[28]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_28
 + clk_int_top[28]
 + ctl[28]
@@ -901,7 +901,7 @@ Xinv_29
 + vss
 + clk_int_top[28]
 + clk_int_top[29]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_29
 + clk_int_top[29]
 + ctl[29]
@@ -923,7 +923,7 @@ Xinv_30
 + vss
 + clk_int_top[29]
 + clk_int_top[30]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_30
 + clk_int_top[30]
 + ctl[30]
@@ -945,7 +945,7 @@ Xinv_31
 + vss
 + clk_int_top[30]
 + clk_int_top[31]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_31
 + clk_int_top[31]
 + ctl[31]
@@ -967,7 +967,7 @@ Xinv_32
 + vss
 + clk_int_top[31]
 + clk_int_top[32]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_32
 + clk_int_top[32]
 + ctl[32]
@@ -989,7 +989,7 @@ Xinv_33
 + vss
 + clk_int_top[32]
 + clk_int_top[33]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_33
 + clk_int_top[33]
 + ctl[33]
@@ -1011,7 +1011,7 @@ Xinv_34
 + vss
 + clk_int_top[33]
 + clk_int_top[34]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_34
 + clk_int_top[34]
 + ctl[34]
@@ -1033,7 +1033,7 @@ Xinv_35
 + vss
 + clk_int_top[34]
 + clk_int_top[35]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_35
 + clk_int_top[35]
 + ctl[35]
@@ -1055,7 +1055,7 @@ Xinv_36
 + vss
 + clk_int_top[35]
 + clk_int_top[36]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_36
 + clk_int_top[36]
 + ctl[36]
@@ -1077,7 +1077,7 @@ Xinv_37
 + vss
 + clk_int_top[36]
 + clk_int_top[37]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_37
 + clk_int_top[37]
 + ctl[37]
@@ -1099,7 +1099,7 @@ Xinv_38
 + vss
 + clk_int_top[37]
 + clk_int_top[38]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_38
 + clk_int_top[38]
 + ctl[38]
@@ -1121,7 +1121,7 @@ Xinv_39
 + vss
 + clk_int_top[38]
 + clk_int_top[39]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_39
 + clk_int_top[39]
 + ctl[39]
@@ -1143,7 +1143,7 @@ Xinv_40
 + vss
 + clk_int_top[39]
 + clk_int_top[40]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_40
 + clk_int_top[40]
 + ctl[40]
@@ -1165,7 +1165,7 @@ Xinv_41
 + vss
 + clk_int_top[40]
 + clk_int_top[41]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_41
 + clk_int_top[41]
 + ctl[41]
@@ -1187,7 +1187,7 @@ Xinv_42
 + vss
 + clk_int_top[41]
 + clk_int_top[42]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_42
 + clk_int_top[42]
 + ctl[42]
@@ -1209,7 +1209,7 @@ Xinv_43
 + vss
 + clk_int_top[42]
 + clk_int_top[43]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_43
 + clk_int_top[43]
 + ctl[43]
@@ -1231,7 +1231,7 @@ Xinv_44
 + vss
 + clk_int_top[43]
 + clk_int_top[44]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_44
 + clk_int_top[44]
 + ctl[44]
@@ -1253,7 +1253,7 @@ Xinv_45
 + vss
 + clk_int_top[44]
 + clk_int_top[45]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_45
 + clk_int_top[45]
 + ctl[45]
@@ -1275,7 +1275,7 @@ Xinv_46
 + vss
 + clk_int_top[45]
 + clk_int_top[46]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_46
 + clk_int_top[46]
 + ctl[46]
@@ -1297,7 +1297,7 @@ Xinv_47
 + vss
 + clk_int_top[46]
 + clk_int_top[47]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_47
 + clk_int_top[47]
 + ctl[47]
@@ -1319,7 +1319,7 @@ Xinv_48
 + vss
 + clk_int_top[47]
 + clk_int_top[48]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_48
 + clk_int_top[48]
 + ctl[48]
@@ -1341,7 +1341,7 @@ Xinv_49
 + vss
 + clk_int_top[48]
 + clk_int_top[49]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_49
 + clk_int_top[49]
 + ctl[49]
@@ -1363,7 +1363,7 @@ Xinv_50
 + vss
 + clk_int_top[49]
 + clk_int_top[50]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_50
 + clk_int_top[50]
 + ctl[50]
@@ -1385,7 +1385,7 @@ Xinv_51
 + vss
 + clk_int_top[50]
 + clk_int_top[51]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_51
 + clk_int_top[51]
 + ctl[51]
@@ -1407,7 +1407,7 @@ Xinv_52
 + vss
 + clk_int_top[51]
 + clk_int_top[52]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_52
 + clk_int_top[52]
 + ctl[52]
@@ -1429,7 +1429,7 @@ Xinv_53
 + vss
 + clk_int_top[52]
 + clk_int_top[53]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_53
 + clk_int_top[53]
 + ctl[53]
@@ -1451,7 +1451,7 @@ Xinv_54
 + vss
 + clk_int_top[53]
 + clk_int_top[54]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_54
 + clk_int_top[54]
 + ctl[54]
@@ -1473,7 +1473,7 @@ Xinv_55
 + vss
 + clk_int_top[54]
 + clk_int_top[55]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_55
 + clk_int_top[55]
 + ctl[55]
@@ -1495,7 +1495,7 @@ Xinv_56
 + vss
 + clk_int_top[55]
 + clk_int_top[56]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_56
 + clk_int_top[56]
 + ctl[56]
@@ -1517,7 +1517,7 @@ Xinv_57
 + vss
 + clk_int_top[56]
 + clk_int_top[57]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_57
 + clk_int_top[57]
 + ctl[57]
@@ -1539,7 +1539,7 @@ Xinv_58
 + vss
 + clk_int_top[57]
 + clk_int_top[58]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_58
 + clk_int_top[58]
 + ctl[58]
@@ -1561,7 +1561,7 @@ Xinv_59
 + vss
 + clk_int_top[58]
 + clk_int_top[59]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_59
 + clk_int_top[59]
 + ctl[59]
@@ -1583,7 +1583,7 @@ Xinv_60
 + vss
 + clk_int_top[59]
 + clk_int_top[60]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_60
 + clk_int_top[60]
 + ctl[60]
@@ -1605,7 +1605,7 @@ Xinv_61
 + vss
 + clk_int_top[60]
 + clk_int_top[61]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_61
 + clk_int_top[61]
 + ctl[61]
@@ -1627,7 +1627,7 @@ Xinv_62
 + vss
 + clk_int_top[61]
 + clk_int_top[62]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_62
 + clk_int_top[62]
 + ctl[62]
@@ -1649,7 +1649,7 @@ Xinv_63
 + vss
 + clk_int_top[62]
 + clk_int_top[63]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_63
 + clk_int_top[63]
 + ctl[63]
@@ -1671,7 +1671,7 @@ Xinv_64
 + vss
 + clk_int_top[63]
 + clk_int_top[64]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_64
 + clk_int_top[64]
 + ctl[64]
@@ -1693,7 +1693,7 @@ Xinv_65
 + vss
 + clk_int_top[64]
 + clk_int_top[65]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_65
 + clk_int_top[65]
 + ctl[65]
@@ -1715,7 +1715,7 @@ Xinv_66
 + vss
 + clk_int_top[65]
 + clk_int_top[66]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_66
 + clk_int_top[66]
 + ctl[66]
@@ -1737,7 +1737,7 @@ Xinv_67
 + vss
 + clk_int_top[66]
 + clk_int_top[67]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_67
 + clk_int_top[67]
 + ctl[67]
@@ -1759,7 +1759,7 @@ Xinv_68
 + vss
 + clk_int_top[67]
 + clk_int_top[68]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_68
 + clk_int_top[68]
 + ctl[68]
@@ -1781,7 +1781,7 @@ Xinv_69
 + vss
 + clk_int_top[68]
 + clk_int_top[69]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_69
 + clk_int_top[69]
 + ctl[69]
@@ -1803,7 +1803,7 @@ Xinv_70
 + vss
 + clk_int_top[69]
 + clk_int_top[70]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_70
 + clk_int_top[70]
 + ctl[70]
@@ -1825,7 +1825,7 @@ Xinv_71
 + vss
 + clk_int_top[70]
 + clk_int_top[71]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_71
 + clk_int_top[71]
 + ctl[71]
@@ -1847,7 +1847,7 @@ Xinv_72
 + vss
 + clk_int_top[71]
 + clk_int_top[72]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_72
 + clk_int_top[72]
 + ctl[72]
@@ -1869,7 +1869,7 @@ Xinv_73
 + vss
 + clk_int_top[72]
 + clk_int_top[73]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_73
 + clk_int_top[73]
 + ctl[73]
@@ -1891,7 +1891,7 @@ Xinv_74
 + vss
 + clk_int_top[73]
 + clk_int_top[74]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_74
 + clk_int_top[74]
 + ctl[74]
@@ -1913,7 +1913,7 @@ Xinv_75
 + vss
 + clk_int_top[74]
 + clk_int_top[75]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_75
 + clk_int_top[75]
 + ctl[75]
@@ -1935,7 +1935,7 @@ Xinv_76
 + vss
 + clk_int_top[75]
 + clk_int_top[76]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_76
 + clk_int_top[76]
 + ctl[76]
@@ -1957,7 +1957,7 @@ Xinv_77
 + vss
 + clk_int_top[76]
 + clk_int_top[77]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_77
 + clk_int_top[77]
 + ctl[77]
@@ -1979,7 +1979,7 @@ Xinv_78
 + vss
 + clk_int_top[77]
 + clk_int_top[78]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_78
 + clk_int_top[78]
 + ctl[78]
@@ -2001,7 +2001,7 @@ Xinv_79
 + vss
 + clk_int_top[78]
 + clk_int_top[79]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_79
 + clk_int_top[79]
 + ctl[79]
@@ -2023,7 +2023,7 @@ Xinv_80
 + vss
 + clk_int_top[79]
 + clk_int_top[80]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_80
 + clk_int_top[80]
 + ctl[80]
@@ -2045,7 +2045,7 @@ Xinv_81
 + vss
 + clk_int_top[80]
 + clk_int_top[81]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_81
 + clk_int_top[81]
 + ctl[81]
@@ -2067,7 +2067,7 @@ Xinv_82
 + vss
 + clk_int_top[81]
 + clk_int_top[82]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_82
 + clk_int_top[82]
 + ctl[82]
@@ -2089,7 +2089,7 @@ Xinv_83
 + vss
 + clk_int_top[82]
 + clk_int_top[83]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_83
 + clk_int_top[83]
 + ctl[83]
@@ -2111,7 +2111,7 @@ Xinv_84
 + vss
 + clk_int_top[83]
 + clk_int_top[84]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_84
 + clk_int_top[84]
 + ctl[84]
@@ -2133,7 +2133,7 @@ Xinv_85
 + vss
 + clk_int_top[84]
 + clk_int_top[85]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_85
 + clk_int_top[85]
 + ctl[85]
@@ -2155,7 +2155,7 @@ Xinv_86
 + vss
 + clk_int_top[85]
 + clk_int_top[86]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_86
 + clk_int_top[86]
 + ctl[86]
@@ -2177,7 +2177,7 @@ Xinv_87
 + vss
 + clk_int_top[86]
 + clk_int_top[87]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_87
 + clk_int_top[87]
 + ctl[87]
@@ -2199,7 +2199,7 @@ Xinv_88
 + vss
 + clk_int_top[87]
 + clk_int_top[88]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_88
 + clk_int_top[88]
 + ctl[88]
@@ -2221,7 +2221,7 @@ Xinv_89
 + vss
 + clk_int_top[88]
 + clk_int_top[89]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_89
 + clk_int_top[89]
 + ctl[89]
@@ -2243,7 +2243,7 @@ Xinv_90
 + vss
 + clk_int_top[89]
 + clk_int_top[90]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_90
 + clk_int_top[90]
 + ctl[90]
@@ -2265,7 +2265,7 @@ Xinv_91
 + vss
 + clk_int_top[90]
 + clk_int_top[91]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_91
 + clk_int_top[91]
 + ctl[91]
@@ -2287,7 +2287,7 @@ Xinv_92
 + vss
 + clk_int_top[91]
 + clk_int_top[92]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_92
 + clk_int_top[92]
 + ctl[92]
@@ -2309,7 +2309,7 @@ Xinv_93
 + vss
 + clk_int_top[92]
 + clk_int_top[93]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_93
 + clk_int_top[93]
 + ctl[93]
@@ -2331,7 +2331,7 @@ Xinv_94
 + vss
 + clk_int_top[93]
 + clk_int_top[94]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_94
 + clk_int_top[94]
 + ctl[94]
@@ -2353,7 +2353,7 @@ Xinv_95
 + vss
 + clk_int_top[94]
 + clk_int_top[95]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_95
 + clk_int_top[95]
 + ctl[95]
@@ -2375,7 +2375,7 @@ Xinv_96
 + vss
 + clk_int_top[95]
 + clk_int_top[96]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_96
 + clk_int_top[96]
 + ctl[96]
@@ -2397,7 +2397,7 @@ Xinv_97
 + vss
 + clk_int_top[96]
 + clk_int_top[97]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_97
 + clk_int_top[97]
 + ctl[97]
@@ -2419,7 +2419,7 @@ Xinv_98
 + vss
 + clk_int_top[97]
 + clk_int_top[98]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_98
 + clk_int_top[98]
 + ctl[98]
@@ -2441,7 +2441,7 @@ Xinv_99
 + vss
 + clk_int_top[98]
 + clk_int_top[99]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_99
 + clk_int_top[99]
 + ctl[99]
@@ -2463,7 +2463,7 @@ Xinv_100
 + vss
 + clk_int_top[99]
 + clk_int_top[100]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_100
 + clk_int_top[100]
 + ctl[100]
@@ -2485,7 +2485,7 @@ Xinv_101
 + vss
 + clk_int_top[100]
 + clk_int_top[101]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_101
 + clk_int_top[101]
 + ctl[101]
@@ -2507,7 +2507,7 @@ Xinv_102
 + vss
 + clk_int_top[101]
 + clk_int_top[102]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_102
 + clk_int_top[102]
 + ctl[102]
@@ -2529,7 +2529,7 @@ Xinv_103
 + vss
 + clk_int_top[102]
 + clk_int_top[103]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_103
 + clk_int_top[103]
 + ctl[103]
@@ -2551,7 +2551,7 @@ Xinv_104
 + vss
 + clk_int_top[103]
 + clk_int_top[104]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_104
 + clk_int_top[104]
 + ctl[104]
@@ -2573,7 +2573,7 @@ Xinv_105
 + vss
 + clk_int_top[104]
 + clk_int_top[105]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_105
 + clk_int_top[105]
 + ctl[105]
@@ -2595,7 +2595,7 @@ Xinv_106
 + vss
 + clk_int_top[105]
 + clk_int_top[106]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_106
 + clk_int_top[106]
 + ctl[106]
@@ -2617,7 +2617,7 @@ Xinv_107
 + vss
 + clk_int_top[106]
 + clk_int_top[107]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_107
 + clk_int_top[107]
 + ctl[107]
@@ -2639,7 +2639,7 @@ Xinv_108
 + vss
 + clk_int_top[107]
 + clk_int_top[108]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_108
 + clk_int_top[108]
 + ctl[108]
@@ -2661,7 +2661,7 @@ Xinv_109
 + vss
 + clk_int_top[108]
 + clk_int_top[109]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_109
 + clk_int_top[109]
 + ctl[109]
@@ -2683,7 +2683,7 @@ Xinv_110
 + vss
 + clk_int_top[109]
 + clk_int_top[110]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_110
 + clk_int_top[110]
 + ctl[110]
@@ -2705,7 +2705,7 @@ Xinv_111
 + vss
 + clk_int_top[110]
 + clk_int_top[111]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_111
 + clk_int_top[111]
 + ctl[111]
@@ -2727,7 +2727,7 @@ Xinv_112
 + vss
 + clk_int_top[111]
 + clk_int_top[112]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_112
 + clk_int_top[112]
 + ctl[112]
@@ -2749,7 +2749,7 @@ Xinv_113
 + vss
 + clk_int_top[112]
 + clk_int_top[113]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_113
 + clk_int_top[113]
 + ctl[113]
@@ -2771,7 +2771,7 @@ Xinv_114
 + vss
 + clk_int_top[113]
 + clk_int_top[114]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_114
 + clk_int_top[114]
 + ctl[114]
@@ -2793,7 +2793,7 @@ Xinv_115
 + vss
 + clk_int_top[114]
 + clk_int_top[115]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_115
 + clk_int_top[115]
 + ctl[115]
@@ -2815,7 +2815,7 @@ Xinv_116
 + vss
 + clk_int_top[115]
 + clk_int_top[116]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_116
 + clk_int_top[116]
 + ctl[116]
@@ -2837,7 +2837,7 @@ Xinv_117
 + vss
 + clk_int_top[116]
 + clk_int_top[117]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_117
 + clk_int_top[117]
 + ctl[117]
@@ -2859,7 +2859,7 @@ Xinv_118
 + vss
 + clk_int_top[117]
 + clk_int_top[118]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_118
 + clk_int_top[118]
 + ctl[118]
@@ -2881,7 +2881,7 @@ Xinv_119
 + vss
 + clk_int_top[118]
 + clk_int_top[119]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_119
 + clk_int_top[119]
 + ctl[119]
@@ -2903,7 +2903,7 @@ Xinv_120
 + vss
 + clk_int_top[119]
 + clk_int_top[120]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_120
 + clk_int_top[120]
 + ctl[120]
@@ -2925,7 +2925,7 @@ Xinv_121
 + vss
 + clk_int_top[120]
 + clk_int_top[121]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_121
 + clk_int_top[121]
 + ctl[121]
@@ -2947,7 +2947,7 @@ Xinv_122
 + vss
 + clk_int_top[121]
 + clk_int_top[122]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_122
 + clk_int_top[122]
 + ctl[122]
@@ -2969,7 +2969,7 @@ Xinv_123
 + vss
 + clk_int_top[122]
 + clk_int_top[123]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_123
 + clk_int_top[123]
 + ctl[123]
@@ -2991,7 +2991,7 @@ Xinv_124
 + vss
 + clk_int_top[123]
 + clk_int_top[124]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_124
 + clk_int_top[124]
 + ctl[124]
@@ -3013,7 +3013,7 @@ Xinv_125
 + vss
 + clk_int_top[124]
 + clk_int_top[125]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_125
 + clk_int_top[125]
 + ctl[125]
@@ -3035,7 +3035,7 @@ Xinv_126
 + vss
 + clk_int_top[125]
 + clk_int_top[126]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_126
 + clk_int_top[126]
 + ctl[126]
@@ -3057,7 +3057,7 @@ Xinv_127
 + vss
 + clk_int_top[126]
 + clk_int_top[127]
-+ inv
++ inv_delay_line
 Xtristate_inv_mid_127
 + clk_int_top[127]
 + ctl[127]
@@ -3077,7 +3077,7 @@ Xtristate_inv_bot_127
 .ends tristate_inv_delay_line_128
 
 
-.subckt inv
+.subckt inv_delay_line
 + vdd
 + vss
 + din
@@ -3088,14 +3088,14 @@ XMP0
 + din
 + vdd
 + vdd
-+ mos_w1800_l150_m1_nf1_id1
++ mos_w1800_l150_m1_nf1_id1_delay_line
 XMN0
 + din_b
 + din
 + vss
 + vss
-+ mos_w1000_l150_m1_nf1_id0
-.ends inv
++ mos_w1000_l150_m1_nf1_id0_delay_line
+.ends inv_delay_line
 
 
 .subckt tristate_inv
@@ -3111,44 +3111,44 @@ Xmn_en
 + en
 + nint
 + vss
-+ mos_w1000_l150_m1_nf1_id0
++ mos_w1000_l150_m1_nf1_id0_delay_line
 Xmn_pd
 + nint
 + din
 + vss
 + vss
-+ mos_w1000_l150_m1_nf1_id0
++ mos_w1000_l150_m1_nf1_id0_delay_line
 Xmp_en
 + din_b
 + en_b
 + pint
 + vdd
-+ mos_w1800_l150_m1_nf1_id1
++ mos_w1800_l150_m1_nf1_id1_delay_line
 Xmp_pu
 + pint
 + din
 + vdd
 + vdd
-+ mos_w1800_l150_m1_nf1_id1
++ mos_w1800_l150_m1_nf1_id1_delay_line
 .ends tristate_inv
 
 
-.subckt mos_w1800_l150_m1_nf1_id1
+.subckt mos_w1800_l150_m1_nf1_id1_delay_line
 + d
 + g
 + s
 + b
 
 M0 d g s b pshort w=1.800 l=0.150 nf=1 mult=1
-.ends mos_w1800_l150_m1_nf1_id1
+.ends mos_w1800_l150_m1_nf1_id1_delay_line
 
 
-.subckt mos_w1000_l150_m1_nf1_id0
+.subckt mos_w1000_l150_m1_nf1_id0_delay_line
 + d
 + g
 + s
 + b
 
 M0 d g s b nshort w=1.000 l=0.150 nf=1 mult=1
-.ends mos_w1000_l150_m1_nf1_id0
+.ends mos_w1000_l150_m1_nf1_id0_delay_line
 
