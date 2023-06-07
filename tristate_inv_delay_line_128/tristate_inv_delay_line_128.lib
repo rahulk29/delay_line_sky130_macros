@@ -115,15 +115,48 @@ library (tristate_inv_delay_line_128) {
       related_pg_pin : vss;
     }
     pin (clk_in) {
+      clock : true;
       direction : input;
       related_ground_pin : vss;
       related_power_pin : vdd;
       max_transition : 0.08;
-      capacitance : 0.005
-      rise_capacitance : 0.005
-      rise_capacitance_range (0.00407359, 0.005);
-      fall_capacitance : 0.005;
-      fall_capacitance_range (0.00421607, 0.005);
+      capacitance : 0.01
+      rise_capacitance : 0.01
+      rise_capacitance_range (0.00407359, 0.01);
+      fall_capacitance : 0.01;
+      fall_capacitance_range (0.00421607, 0.01);
+      timing () {
+        related_pin : "clk";
+        timing_type : min_pulse_width;
+        rise_constraint (mpw_constraint_template_3x3) {
+          index_1 ("0.00125, 0.005, 0.04");
+          values ( \
+            "0.596506, 0.596964, 0.596834" \
+          );
+        }
+        fall_constraint (mpw_constraint_template_3x3) {
+          index_1 ("0.00125, 0.005, 0.04");
+          values ( \
+            "0.627896, 0.627451, 0.627405" \
+          );
+        }
+      }
+      timing () {
+        related_pin : "clk";
+        timing_type : minimum_period;
+        rise_constraint (mpw_constraint_template_3x3) {
+          index_1 ("0.00125, 0.005, 0.04");
+          values ( \
+            "2.59964, 2.59963, 2.59966" \
+          );
+        }
+        fall_constraint (mpw_constraint_template_3x3) {
+          index_1 ("0.00125, 0.005, 0.04");
+          values ( \
+            "2.59964, 2.59963, 2.59966" \
+          );
+        }
+      }
     }
     pin (clk_out) {
       direction : output;
